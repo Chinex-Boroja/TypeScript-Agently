@@ -1,0 +1,91 @@
+header {
+    background-color: #fff;
+    height: 10vh;
+    box-shadow: 0 5px 30px rgb(0, 22, 84 / 10%);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.container {
+    max-width: 95%;
+    margin: 3px auto;
+  }
+  
+  .input {
+    box-sizing: border-box;
+    display: flex;
+    width: 334px;
+    height: 48px;
+    border-radius: 38px;
+    padding: 8px 20px;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    flex-direction: row;
+  
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .line {
+    width: 100vw;
+    height: 1px;
+    margin: 2rem 0;
+    background-color: #e5e5e5;
+  }
+
+  .typo {
+    width: 112px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    color: #222222;
+    /* Inside auto layout */
+    flex: none;
+    /* order: 0; */
+    flex-grow: 0;
+  }
+  /* .icon { 
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #B0B0B0;
+
+  } */
+  .frame {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 184px;
+    height: 32px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+
+/* header span {
+    width: auto;
+    padding: 0 6px;
+} */
