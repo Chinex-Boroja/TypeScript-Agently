@@ -1,39 +1,39 @@
 export const nav = [
     {
       text: "House",
-      path: "/",
+      path: "/House",
     },
     {
       text: "Office Space",
-      path: "/about",
+      path: "/Office Space",
     },
     {
       text: "Flats and Apartments",
-      path: "/services",
+      path: "/Flats and Apartments",
     },
     {
       text: "land",
-      path: "/blog",
+      path: "/land",
     },
     {
       text: "Semi Detached Bungalow",
-      path: "/pricing",
+      path: "/Semi Detached Bungalow",
     },
     {
       text: "Semi Detached Duplex",
-      path: "/contact",
+      path: "/Semi Detached Duplex",
     },
     {
         text: "Duplex",
-        path: "/contact",
+        path: "/Duplex",
       },
     {
       text: "Mini Flat",
-      path: "/contact",
+      path: "/Mini Flat",
     },
     {
         text: "Shop in a Mall",
-        path: "/contact",
+        path: "/Shop in a Mall",
     },
   ]
   export const list = [
@@ -95,51 +95,171 @@ export const nav = [
   
   export const location = [
     {
-      id: 1,
-      name: "New Orleans, Louisiana",
-      Villas: "12 Villas",
-      Apartments: "10 Apartments",
-      Offices: "07 Offices",
-      cover: "./images/location/city-1.png",
+        "id": 1,
+        "images" : [
+            "/assets/images/real-estates-1.png"
+        ],
+        "location": {
+            "town": "ikoyi",
+            "state": "Lagos",
+            "country": "NG"
+        },
+        "owner":"IJT Realtor",
+        "bedroom":6,
+        "sittingRoom": 3,
+        "bathroom": 2,
+        "toilet": 2,
+        "kitchen": 2,
+        "status": "New",
+        "description": "3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.",
+        "price": 120000000,
+        "distance": "450 kilometer away"
     },
     {
-      id: 2,
-      name: "Jerrsy, United State",
-      Villas: "12 Villas",
-      Apartments: "10 Apartments",
-      Offices: "07 Offices",
-      cover: "./images/location/city-2.png",
+        "id": 2,
+        "images" : [
+            "/assets/images/real-estates-2.png"
+        ],
+        "location": {
+            "town": "ikoyi",
+            "state": "Lagos",
+            "country": "NG"
+        },
+        "owner":"BNW Realtor",
+        "bedroom": 4,
+        "sittingRoom": 3,
+        "bathroom": 2,
+        "toilet": 2,
+        "kitchen": 2,
+        "status": "Serviced",
+        "description": "3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.",
+        "price": 120000000,
+        "distance": "450 kilometer away"
     },
     {
-      id: 3,
-      name: "Liverpool, London",
-      Villas: "12 Villas",
-      Apartments: " 10 Apartments",
-      Offices: "07 Offices",
-      cover: "./images/location/city-3.png",
+        "id": 3,
+        "images" : [
+            "/assets/images/real-estates-3.png"
+        ],
+        "location": {
+            "town": "ikoyi",
+            "state": "Lagos",
+            "country": "NG"
+        },
+        "owner":"BNW Realtor",
+        "bedroom": 3,
+        "sittingRoom": 3,
+        "bathroom": 2,
+        "toilet": 2,
+        "kitchen": 2,
+        "status": "New",
+        "description": "3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.",
+        "price": 120000000,
+        "distance": "450 kilometer away"
     },
     {
-      id: 4,
-      name: "NewYork, United States",
-      Villas: "12 Villas",
-      Apartments: " 10 Apartments",
-      Offices: "07 Offices",
-      cover: "./images/location/city-4.png",
+        "id": 4,
+        "images" : [
+            "/assets/images/real-estates-4.png"
+        ],
+        "location": {
+            "town": "ikoyi",
+            "state": "Lagos",
+            "country": "NG"
+        },
+        "owner":"IJT Realtor",
+        "bedroom": 3,
+        "sittingRoom": 3,
+        "bathroom": 2,
+        "toilet": 2,
+        "kitchen": 2,
+        "status": "New",
+        "description": "3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.",
+        "price": 120000000,
+        "distance": "450 kilometer away"
     },
     {
-      id: 5,
-      name: "Montreal, Canada",
-      Villas: "12 Villas",
-      Apartments: " 10 Apartments",
-      Offices: "07 Offices",
-      cover: "./images/location/city-5.png",
+        "id": 5,
+        "images" : [
+            "/assets/images/real-estates-5.png"
+        ],
+        "location": {
+            "town": "ikoyi",
+            "state": "Lagos",
+            "country": "NG"
+        },
+        "owner":"BNW Realtor",
+        "bedroom": 1,
+        "sittingRoom": 3,
+        "bathroom": 2,
+        "toilet": 2,
+        "kitchen": 2,
+        "status": "New",
+        "description": "3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.",
+        "price": 120000000,
+        "distance": "450 kilometer away"
     },
     {
-      id: 6,
-      name: "California, USA",
-      Villas: "12 Villas",
-      Apartments: " 10 Apartments",
-      Offices: "07 Offices",
-      cover: "./images/location/city-6.png",
+        "id": 6,
+        "images" : [
+            "/assets/images/real-estates-6.png"
+        ],
+        "location": {
+            "town": "ikoyi",
+            "state": "Lagos",
+            "country": "NG"
+        },
+        "owner":"IJT Realtor",
+        "bedroom": 3,
+        "sittingRoom": 3,
+        "bathroom": 2,
+        "toilet": 2,
+        "kitchen": 2,
+        "status": "Serviced",
+        "description": "3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.",
+        "price": 120000000,
+        "distance": "450 kilometer away"
     },
-  ]
+    {
+        "id": 7,
+        "images" : [
+            "/assets/images/real-estates-7.png"
+        ],
+        "location": {
+            "town": "ikoyi",
+            "state": "Lagos",
+            "country": "NG"
+        },
+        "owner":"IJT Realtor",
+        "bedroom": 4,
+        "sittingRoom": 3,
+        "bathroom": 2,
+        "toilet": 2,
+        "kitchen": 2,
+        "status": "New",
+        "description": "3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.",
+        "price": 120000000,
+        "distance": "450 kilometer away"
+    },
+    {
+        "id": 8,
+        "images" : [
+            "/assets/images/real-estates-8.png"
+        ],
+        "location": {
+            "town": "ikoyi",
+            "state": "Lagos",
+            "country": "NG"
+        },
+        "owner": "IJT Realtor",
+        "bedroom": 3,
+        "sittingRoom": 3,
+        "bathroom": 2,
+        "toilet": 2,
+        "kitchen": 2,
+        "status": "New",
+        "description": "3 bedroom House for sale at Ikoyi The Local Government Council Headquarters Lagos Imo selling for ₦30,000,000. See property details on Agently or browse all our range of properties in Ikoyi 3 bedroom House for sale in Ikoyi Buy 3 bedroom House for sale All Ensuite 4 Bedroom Detached Bungalow in Ikoyi is a House.",
+        "price": 120000000,
+        "distance": "450 kilometer away"
+    }
+]
